@@ -40,7 +40,7 @@ function F(){
     const birthYear = 2001;
     let year=2023;
     let possibleAge1 = year -birthYear ;
-    let possibleAge2 = possibleAge1++;
+    let possibleAge2 = possibleAge1--;
     console.log(`I will be either ${possibleAge1} or ${possibleAge2} in ${year}`);
 }
 
